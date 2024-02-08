@@ -13,3 +13,4 @@ Login Details for Patient: johndoe12@test.com/Test@123
 Login Details for Doctor: anujk123@test.com/Test@123
 
 BTW: Google Sheets: https://docs.google.com/spreadsheets/d/1VFya3kXGOL1TFH9QPBUqacAIQlEewrDSORV2ZhYki0I/edit#gid=0
+DATABASE
