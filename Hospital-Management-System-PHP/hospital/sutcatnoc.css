@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
 html{
@@ -11,15 +11,16 @@ body{
     background: whitesmoke;
     color: black;
 }
-#header{
+h2{
     width: 100%;
-    height: 100vh;
-    background-image: url(img/webbackground.png);
+    margin-bottom: 30px;
     background-size: cover;
     background-position: center;
 }
 .container{
     padding: 10px 10%;
+    margin: 10px;
+    
 }
 .row{
     display: flex;
@@ -42,10 +43,16 @@ body{
 }
 .contact-left{
     flex-basis: 35%;
-    color: #ff004f;
-    top: -100px;
+    color: rgb(91, 199, 242);
     margin-right: 15;
     font-size: 25px;
+
+}
+.contact-left h3{
+    margin-bottom: 50px;
+    margin-block-start: 20px;
+    max-width: 20%;
+
 }
 .contact-right{
     flex-basis: 60%;
