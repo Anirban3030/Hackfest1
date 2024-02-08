@@ -45,7 +45,7 @@ echo "<script>window.location.href ='index.php'</script>";
                             <li><a href="#services">Services</a></li>
                             <li><a href="#about_us">About Us</a></li>
                             <li><a href="#gallery">Gallery</a></li>
-                            <li><a href="#contact_us">Contact Us</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
                             <li><a href="#logins">Logins</a></li>  
                         </ul>
                     </div>
@@ -326,9 +326,9 @@ while ($row=mysqli_fetch_array($ret)) {
         <!-- ######## Gallery End ####### -->
     
     
-     <!--  ************************* Contact Us Starts Here ************************** -->
+     <!--  ************************* Contact Us Deleted Here ************************** -->
     
-    <section id="contact_us" class="contact-us-single">
+    <!--<section id="contact_us" class="contact-us-single">
         <div class="row no-margin">
 
             <div  class="col-sm-12 cop-ck">
@@ -362,7 +362,7 @@ while ($row=mysqli_fetch_array($ret)) {
             </div>
      
         </div>
-    </section>
+    </section>-->
     
     
     
@@ -382,7 +382,7 @@ while ($row=mysqli_fetch_array($ret)) {
                         <li><a ui-sref="portfolio" href="#services">Services</a><i class="fa fa-angle-right"></i></li>
                         <li><a ui-sref="products" href="#logins">Logins</a><i class="fa fa-angle-right"></i></li>
                         <li><a ui-sref="gallery" href="#gallery">Gallery</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="contact" href="#contact">Contact us</a><i class="fa fa-angle-right"></i></li>
+                        <li><a ui-sref="contact" href="contactus.html">Contact us</a><i class="fa fa-angle-right"></i></li>
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-12 map-img">
@@ -415,9 +415,7 @@ while ($row=mysqli_fetch_array($ret)) {
     </footer>
     <div class="copy">
             <div class="container">
-         Hospital Management System
-                
-     
+            <p>Bits N' Bytes 2024-2024.</p>    
             </div>
 
         </div>
